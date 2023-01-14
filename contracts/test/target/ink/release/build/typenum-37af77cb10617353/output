@@ -1,3 +1,3 @@
 cargo:rerun-if-changed=build/main.rs
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/ganesholi/Developer/trait_test/contracts/test/target/ink/release/build/typenum-37af77cb10617353/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/Users/ganesholi/Developer/trait_test/contracts/test/target/ink/release/build/typenum-37af77cb10617353/out/op.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/ganesholi/Developer/fix-code/contracts/test/target/ink/release/build/typenum-37af77cb10617353/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/ganesholi/Developer/fix-code/contracts/test/target/ink/release/build/typenum-37af77cb10617353/out/op.rs

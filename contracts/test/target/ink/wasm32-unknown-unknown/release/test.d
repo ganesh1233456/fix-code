@@ -1,1 +1,1 @@
-/Users/ganesholi/Developer/trait_test/contracts/test/target/ink/wasm32-unknown-unknown/release/test.wasm: /Users/ganesholi/Developer/trait_test/contracts/logics/lib.rs /Users/ganesholi/Developer/trait_test/contracts/test/src/lib.rs
+/Users/ganesholi/Developer/fix-code/contracts/test/target/ink/wasm32-unknown-unknown/release/test.wasm: /Users/ganesholi/Developer/fix-code/contracts/logics/lib.rs /Users/ganesholi/Developer/fix-code/contracts/test/src/lib.rs

@@ -15,6 +15,7 @@ mod test {
     }
 
     impl Base for Test {
+        #[ink(message)]
         fn execute_function(&mut self) -> Result<(),()> {
             self.flip();
             Ok(())

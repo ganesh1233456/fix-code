@@ -18,11 +18,7 @@ openbrush = { tag = "v2.3.0", git = "https://github.com/Supercolony-net/openbrus
 [lib]
 name = "logics"
 path = "lib.rs"
-crate-type = [
-	# Used for normal contract Wasm blobs.
-	"cdylib",
-    "rlib",
-]
+crate-type = ["rlib"]
 
 [features]
 default = ["std"]

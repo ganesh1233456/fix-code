@@ -1,6 +1,6 @@
 {
   "source": {
-    "hash": "0x166caca141679868344895698561afc8d430f78d981d8e3f02c7a56c6e677d2b",
+    "hash": "0x47fa29bdda87701ab0712f13dd580c763d2433039f9e44d673fd43eb66773a80",
     "language": "ink! 3.4.0",
     "compiler": "rustc 1.67.0-nightly"
   },
@@ -81,6 +81,20 @@
             "type": 0
           },
           "selector": "0x2f865bd9"
+        },
+        {
+          "args": [],
+          "docs": [],
+          "label": "Base::execute_function",
+          "mutates": true,
+          "payable": false,
+          "returnType": {
+            "displayName": [
+              "Result"
+            ],
+            "type": 1
+          },
+          "selector": "0x5d6b3c8b"
         }
       ]
     },
@@ -105,6 +119,56 @@
         "type": {
           "def": {
             "primitive": "bool"
+          }
+        }
+      },
+      {
+        "id": 1,
+        "type": {
+          "def": {
+            "variant": {
+              "variants": [
+                {
+                  "fields": [
+                    {
+                      "type": 2
+                    }
+                  ],
+                  "index": 0,
+                  "name": "Ok"
+                },
+                {
+                  "fields": [
+                    {
+                      "type": 2
+                    }
+                  ],
+                  "index": 1,
+                  "name": "Err"
+                }
+              ]
+            }
+          },
+          "params": [
+            {
+              "name": "T",
+              "type": 2
+            },
+            {
+              "name": "E",
+              "type": 2
+            }
+          ],
+          "path": [
+            "Result"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "type": {
+          "def": {
+            "tuple": []
           }
         }
       }
