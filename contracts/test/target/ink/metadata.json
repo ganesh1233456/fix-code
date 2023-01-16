@@ -1,6 +1,6 @@
 {
   "source": {
-    "hash": "0x47fa29bdda87701ab0712f13dd580c763d2433039f9e44d673fd43eb66773a80",
+    "hash": "0x0ec3f8903dba7f2e6cc1927682d8e6896b2219fd7baffe0696b3336021a76030",
     "language": "ink! 3.4.0",
     "compiler": "rustc 1.67.0-nightly"
   },
@@ -90,7 +90,8 @@
           "payable": false,
           "returnType": {
             "displayName": [
-              "Result"
+              "base_external",
+              "ExecuteFunctionOutput"
             ],
             "type": 1
           },
